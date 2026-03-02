@@ -48,7 +48,7 @@ export const pluginStyledComponents = (
   name: PLUGIN_STYLED_COMPONENTS_NAME,
 
   setup(api) {
-    if (api.context.bundlerType === 'webpack') {
+    if (api.context.bundlerType !== 'rspack') {
       return;
     }
 
