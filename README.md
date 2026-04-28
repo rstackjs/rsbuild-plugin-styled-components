@@ -42,7 +42,7 @@ Add plugin to your `rsbuild.config.ts`:
 
 ```ts
 // rsbuild.config.ts
-import { pluginStyledComponents } from "@rsbuild/plugin-styled-components";
+import { pluginStyledComponents } from '@rsbuild/plugin-styled-components';
 
 export default {
   plugins: [pluginStyledComponents()],
@@ -54,13 +54,13 @@ export default {
 After registering the plugin, you can use styled-components to write styles:
 
 ```ts
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const div = styled.div`
   color: red;
 `;
 
-console.log("div", div);
+console.log('div', div);
 ```
 
 ## Options
