@@ -12,8 +12,8 @@ importers:
         specifier: ^12.10.0
         version: 12.10.0
       reduce-configs:
-        specifier: ^1.1.2
-        version: 1.1.2
+        specifier: ^2.0.0
+        version: 2.0.0
     devDependencies:
       '@playwright/test':
         specifier: ^1.60.0
@@ -406,8 +406,8 @@ packages:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
-  reduce-configs@1.1.2:
-    resolution: {integrity: sha512-AgBP55V8FC7NaqoOP2RCbTpu6LE+YuX3LUZkNAoitcfyS3/PIC8Obg/TJrBzTkJ+lDvZv0TTAeDpLkzjTtYlbw==}
+  reduce-configs@2.0.0:
+    resolution: {integrity: sha512-oKMHUDY3TBSsyv4AzzQBpB3lRgmCIcNb3Ax3cAmJWCyRkHLYh3BcwP2Ari3aVsw8N6hoft1qW9hxvnKBnSlqNw==}
 
   rsbuild-plugin-dts@0.21.5:
     resolution: {integrity: sha512-tRSqSCmaY2Ef/FTxcLUw26jQxM/HJHAFqTsqngXnXnfic0BHlSCKzJuwjGoGUYimb3RdH6qnC7jzkXuoe+ZXOA==}
@@ -748,7 +748,7 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  reduce-configs@1.1.2: {}
+  reduce-configs@2.0.0: {}
 
   rsbuild-plugin-dts@0.21.5(@rsbuild/core@2.0.6)(typescript@6.0.3):
     dependencies:
