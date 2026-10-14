@@ -30,7 +30,7 @@
     "test": "rs test"
   },
   "dependencies": {
-    "@swc/plugin-styled-components": "^13.0.0",
+    "@swc/plugin-styled-components": "^17.0.0",
     "reduce-configs": "^1.1.2"
   },
   "devDependencies": {
