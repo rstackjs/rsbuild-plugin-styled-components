@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       '@swc/plugin-styled-components':
-        specifier: ^13.0.0
-        version: 13.0.0
+        specifier: ^17.0.0
+        version: 17.0.0
       reduce-configs:
         specifier: ^1.1.2
         version: 1.1.2
@@ -644,8 +644,8 @@ packages:
   '@swc/helpers@0.5.23':
     resolution: {integrity: sha512-5lSsMOTXURePglDfvuAQUqkGek9Hg2kksOYay2m0+XR++b2NWYL/4sWyuvVBIs8oKnJaxkdi9whaL/sqN13afw==}
 
-  '@swc/plugin-styled-components@13.0.0':
-    resolution: {integrity: sha512-9kWagP4qtU4XZ7iyVrR2Nlw4/NMrbRpPCsCims15tKPHiWDI2FdL9+2ocOqB+uDwNCv3wGc8P/Eagbh3+zY/3Q==}
+  '@swc/plugin-styled-components@17.0.0':
+    resolution: {integrity: sha512-Jj4sGRYFFUantt2PHMLaZQYRkywdLt0oeF8AfvWQ53oGW2axKvt3aGElX2H41UUEN5btSvrfA90MxMXNbFnS9g==}
 
   '@tybys/wasm-util@0.10.3':
     resolution: {integrity: sha512-F3fo1MYrRJYL3zER0OUOmkutjr1Vp23m7OsSgp7nq4SP6OqX6C/56XFIPAl5bt3zaBRjmW7SGz3u/6LwFpYcOg==}
@@ -1203,7 +1203,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@swc/plugin-styled-components@13.0.0':
+  '@swc/plugin-styled-components@17.0.0':
     dependencies:
       '@swc/counter': 0.1.3
 
