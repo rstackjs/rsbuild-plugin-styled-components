@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@swc/plugin-styled-components": "^17.0.0",
-    "reduce-configs": "^1.1.2"
+    "reduce-configs": "^2.0.1"
   },
   "devDependencies": {
     "@rsbuild/core": "^2.2.13",
